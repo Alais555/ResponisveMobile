@@ -10,6 +10,10 @@
   justify-content: space-between;
 }
 
+.hide-desktop-only {
+  display: none;
+}
+
 .col {
   background-color: brown;
   min-height: 200px;
@@ -23,6 +27,9 @@
   .col {
     width: 45%;
   }
+  .hide-desktop-only {
+    display: block;
+  }
 }
 
 /* Mobile View */
@@ -30,5 +37,8 @@
 @media (max-width: 400px) {
   .col {
     width: 100%;
+  }
+  .hide-mobiel {
+    display: none;
   }
 }
