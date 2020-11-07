@@ -1,7 +1,10 @@
 /* Desktop View */
 
+body {
+  font-family: 'Asap', sans-serif;
+}
+
 .container {
-  background-color: rgb(43, 226, 134);
   min-height: 500px;
   max-width: 1024px;
   margin: 0 auto;
@@ -15,13 +18,25 @@
 }
 
 .col {
+  background-color: rgb(43, 226, 134);
   width: 30%;
   margin-bottom: 40px;
+}
+
+.col p {
+  color: white;
+  font-size: 0.875rem;
+  padding: 10px 25px;
+  line-height: 1.25rem;
 }
 
 .col img {
   width: 100%;
   height: auto;
+}
+
+.col p::first-line {
+  font-weight: 700;
 }
 
 /* Tablet View */
