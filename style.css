@@ -4,6 +4,8 @@ body {
   font-family: 'Asap', sans-serif;
   color: white;
   background-color: #EBEBEB;
+  background-image: url(images/Logo\ Background.png);
+  background-repeat: repeat;
 }
 
 a {
@@ -73,6 +75,10 @@ header {
   font-weight: 700;
 }
 
+.mob-wrapper {
+  display: none;
+}
+
 /* Tablet View */
 
 @media (max-width: 768px) {
@@ -82,15 +88,14 @@ header {
   .hide-desktop-only {
     display: block;
   }
-  header {
-    display: block;
-    text-align: center;
-  }
   .container {
     padding-top: 40px;
   }
   .header-container {
     position: relative;
+  }
+  nav {
+    display: none;
   }
   nav a {
     display: block;
@@ -100,6 +105,22 @@ header {
   }
   .mybutton {
     margin-left: 0;
+  }
+  .mob-wrapper {
+    display: block;
+    padding-right: 30px;
+  }
+  .mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+  }
+  .navbutton {
+    display: block;
+    background-color: salmon;
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
   }
 }
 
