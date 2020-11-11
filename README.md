@@ -1,6 +1,6 @@
-# ResponisvePortfolio2.0
+# ResponisveMobile
 
-Web Design website that is not fully functional for the user but just to show for layout and design.
+Web Design website that is not fully functional for the user but just to show for layout and design. This website is mobile responsive for users such as phones and tablets. 
 
 # Languages 
 
